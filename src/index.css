@@ -11,6 +11,10 @@
   --color-foreground: 239 229 219; /* #EFE5DB */
 }
 
+.anid-footer {
+  height: 12rem;
+  width: 12rem;
+}
 .team-card {
   isolation: isolate;
 }
@@ -89,7 +93,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
-    scroll-padding-top: 5rem; /* compensa el navbar fijo */
+    scroll-padding-top: 5rem;
   }
 
   body {
