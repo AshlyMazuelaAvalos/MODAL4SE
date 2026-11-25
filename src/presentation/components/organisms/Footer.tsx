@@ -12,6 +12,11 @@ export function Footer({ brand, links }: FooterProps) {
     <footer className="relative overflow-hidden pt-4 pb-10">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mt-16 flex flex-col items-center gap-8 text-center">
+          <img src="{anidlogo}" alt="" className="h-24 w-24" />
+          <p className="text-secondary">
+            Financiado por la Agencia Nacional de Investigación y Desarrollo,
+            ANID/FONDECYT Iniciación 2025
+          </p>
           <img src={modellogo} alt="" className="h-24 w-24" />
           <p className="text-2xl font-extrabold tracking-tight">
             {brand.slice(0, -4)}
